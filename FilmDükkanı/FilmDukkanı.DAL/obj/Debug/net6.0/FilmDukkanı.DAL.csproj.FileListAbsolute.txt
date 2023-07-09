@@ -1,0 +1,17 @@
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\bin\Debug\net6.0\FilmDukkanı.DAL.deps.json
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\bin\Debug\net6.0\FilmDukkanı.DAL.runtimeconfig.json
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\bin\Debug\net6.0\FilmDukkanı.DAL.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\bin\Debug\net6.0\FilmDukkanı.DAL.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\bin\Debug\net6.0\FilmDükkanı.Entity.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\bin\Debug\net6.0\FilmDükkanı.Entity.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\FilmDukkanı.DAL.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\FilmDukkanı.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\FilmDukkanı.DAL.AssemblyInfoInputs.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\FilmDukkanı.DAL.AssemblyInfo.cs
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\FilmDukkanı.DAL.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\FilmDukkanı.DAL.csproj.CopyComplete
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\FilmDukkanı.DAL.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\refint\FilmDukkanı.DAL.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\FilmDukkanı.DAL.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\FilmDukkanı.DAL.genruntimeconfig.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.DAL\obj\Debug\net6.0\ref\FilmDukkanı.DAL.dll

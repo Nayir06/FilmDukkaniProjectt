@@ -1,0 +1,12 @@
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\bin\Debug\net6.0\FilmDükkanı.Entity.deps.json
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\bin\Debug\net6.0\FilmDükkanı.Entity.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\bin\Debug\net6.0\FilmDükkanı.Entity.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\obj\Debug\net6.0\FilmDükkanı.Entity.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\obj\Debug\net6.0\FilmDükkanı.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\obj\Debug\net6.0\FilmDükkanı.Entity.AssemblyInfoInputs.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\obj\Debug\net6.0\FilmDükkanı.Entity.AssemblyInfo.cs
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\obj\Debug\net6.0\FilmDükkanı.Entity.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\obj\Debug\net6.0\FilmDükkanı.Entity.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\obj\Debug\net6.0\refint\FilmDükkanı.Entity.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\obj\Debug\net6.0\FilmDükkanı.Entity.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDükkanı.Entity\obj\Debug\net6.0\ref\FilmDükkanı.Entity.dll
