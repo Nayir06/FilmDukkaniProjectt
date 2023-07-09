@@ -1,0 +1,17 @@
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\bin\Debug\net6.0\FılmDukkanı.BLL.deps.json
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\bin\Debug\net6.0\FılmDukkanı.BLL.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\bin\Debug\net6.0\FılmDukkanı.BLL.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\bin\Debug\net6.0\FilmDukkanı.DAL.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\bin\Debug\net6.0\FilmDükkanı.Entity.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\bin\Debug\net6.0\FilmDukkanı.DAL.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\bin\Debug\net6.0\FilmDükkanı.Entity.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.AssemblyInfoInputs.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.AssemblyInfo.cs
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.csproj.CopyComplete
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\obj\Debug\net6.0\refint\FılmDukkanı.BLL.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FılmDukkanı.BLL\obj\Debug\net6.0\ref\FılmDukkanı.BLL.dll

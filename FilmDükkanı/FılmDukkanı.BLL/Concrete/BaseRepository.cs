@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace FılmDukkanı.BLL.Concrete
 {
-    internal class BaseRepository<T> : IRepository<T> where T : BaseEntity
+    public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly FılmDukkanıContext _context;
         private readonly DbSet<T> _entities; // buraya gelen ürünü set ediyor
@@ -75,6 +75,7 @@ namespace FılmDukkanı.BLL.Concrete
                 {
 
                     case FilmDükkanı.Entity.Enum.Status.Updated:
+                    case FilmDükkanı.Entity.Enum.Status.Created:
                         entity.Status = FilmDükkanı.Entity.Enum.Status.Updated;
                         _context.Entry(entity).State = EntityState.Modified;
                         _context.SaveChanges();
