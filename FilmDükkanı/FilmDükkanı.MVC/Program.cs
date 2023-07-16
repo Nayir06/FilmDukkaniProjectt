@@ -4,6 +4,7 @@ using FýlmDukkaný.BLL.Concrete;
 using FýlmDukkaný.BLL.Service;
 using FilmDukkaný.DAL.Context;
 using FilmDükkaný.Entity.Base;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<FýlmDukkanýContext>();
 
 //servisler
+
+builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddEntityFrameworkStores<FýlmDukkanýContext>();
 
 builder.Services.AddTransient(typeof(IRepository<>), typeof(BaseRepository<>));
 builder.Services.AddScoped<ICategoryService, CategoryService>();
