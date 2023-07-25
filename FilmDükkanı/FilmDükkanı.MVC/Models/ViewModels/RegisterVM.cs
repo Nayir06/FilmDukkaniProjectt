@@ -15,5 +15,11 @@ namespace FilmDükkanı.MVC.Models.ViewModels
         public string ConfirmPassword { get; set; }
 
 
+        public string KartIsım { get; set;   }
+        public string KartNumara { get; set; }
+        public DateTime SonKullanmaTarıh { get; set; }
+        public string CvvKodu { get; set; }
+
+
     }
 }
