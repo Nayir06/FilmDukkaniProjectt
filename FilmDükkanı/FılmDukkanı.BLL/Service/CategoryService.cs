@@ -54,7 +54,7 @@ namespace FılmDukkanı.BLL.Service
 
         public IEnumerable<Category> GetAllCategories()
         {
-            return _Categoryrepository.GetAll().ToList();
+            return _Categoryrepository.GetAll();
         }
 
         public string UpdateCategory(Category category)

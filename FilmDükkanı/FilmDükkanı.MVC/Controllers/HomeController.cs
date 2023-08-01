@@ -65,13 +65,30 @@ namespace FilmDükkanı.MVC.Controllers
         }
 
 
-
-
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        //confırmation
+        public async Task<IActionResult> Confirmation(string? id, string? token)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var user = await _userManager.FindByIdAsync(id);
+
+            if (user == null)
+            {
+                return RedirectToAction("Register");
+            }
+
+            var decodedToken = HttpUtility.UrlDecode(token); // Here we decode the token
+            var result = await _userManager.ConfirmEmailAsync(user, decodedToken);
+
+            //var confirm = await _userManager.ConfirmEmailAsync(user, token);
+            if (result.Succeeded)
+            {
+                return View("Index");
+            }
+            else
+            {
+                return RedirectToAction("Register");
+            }
+
+
         }
     }
 }
