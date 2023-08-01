@@ -1,4 +1,67 @@
-﻿
-@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@{
+
+
+
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#!">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            @*<ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#!">All Products</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+            <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+            </ul>
+            </li>
+            </ul>*@
+            <ul class="navbar-nav me-auto">
+                @foreach (var item in ViewBag.Categories as List<Category>)
+                {
+                    <li class="nav-item"><a class="nav-link" asp-action="ProductsCategory" asp-controller="Home" asp-route-id="@item.Id">@item.CategoryName</a></li>
+
+                }
+            </ul>
+            <form class="d-flex">
+                <a asp-action="MyCart" asp-controller="Home" class="btn btn-outline-dark" type="submit">
+                    <i class="bi-cart-fill me-1"></i>
+                    Cart
+
+                   
+                </a>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a asp-action="Profile" asp-controller="User" class="nav-link">@User.Identity.Name</a>
+
+
+                    @*
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#!">@User.Identity.Name</a></li>
+
+                <li><a class="dropdown-item" asp-action="Profile" asp-controller="User">Profil</a></li>
+                <li><a class="dropdown-item" asp-action="MyOrders" asp-controller="User">Siparişler</a></li>
+
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" asp-action="Logout" asp-controller="User">Logout</a></li>
+                </ul>*@
+                }
+                else
+                {
+                    <a asp-action="Login" asp-controller="Home" class="btn btn-primary">Login</a>
+                    <a asp-action="Register" asp-controller="Home" class="btn btn-outline-primary">Register</a>
+                }
+
+            </form>
+
+
+        </div>
+    </div>
+</nav>
