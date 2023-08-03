@@ -12,7 +12,7 @@ using FılmDukkanı.BLL.Service;
 
 namespace FılmDukkanı.IOC.Container
 {
-    internal class ServiceContainer
+    public static class ServiceContainer
     {
         public static void ServiceConfigure(IServiceCollection services)
         {
