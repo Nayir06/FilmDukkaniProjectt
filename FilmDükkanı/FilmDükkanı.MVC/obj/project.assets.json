@@ -3855,6 +3855,22 @@
         "runtime": {
           "bin/placeholder/FılmDukkanı.BLL.dll": {}
         }
+      },
+      "FılmDukkanı.IOC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FilmDukkanı.DAL": "1.0.0",
+          "FilmDükkanı.Entity": "1.0.0",
+          "FılmDukkanı.BLL": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/FılmDukkanı.IOC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FılmDukkanı.IOC.dll": {}
+        }
       }
     }
   },
@@ -10891,6 +10907,11 @@
       "type": "project",
       "path": "../FılmDukkanı.BLL/FılmDukkanı.BLL.csproj",
       "msbuildProject": "../FılmDukkanı.BLL/FılmDukkanı.BLL.csproj"
+    },
+    "FılmDukkanı.IOC/1.0.0": {
+      "type": "project",
+      "path": "../FılmDukkanı.IOC/FılmDukkanı.IOC.csproj",
+      "msbuildProject": "../FılmDukkanı.IOC/FılmDukkanı.IOC.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10898,6 +10919,7 @@
       "FilmDukkanı.DAL >= 1.0.0",
       "FilmDükkanı.Entity >= 1.0.0",
       "FılmDukkanı.BLL >= 1.0.0",
+      "FılmDukkanı.IOC >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.15"
     ]
   },
@@ -10941,6 +10963,9 @@
             },
             "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.BLL\\FılmDukkanı.BLL.csproj": {
               "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.BLL\\FılmDukkanı.BLL.csproj"
+            },
+            "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FılmDukkanı.IOC.csproj": {
+              "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FılmDukkanı.IOC.csproj"
             }
           }
         }

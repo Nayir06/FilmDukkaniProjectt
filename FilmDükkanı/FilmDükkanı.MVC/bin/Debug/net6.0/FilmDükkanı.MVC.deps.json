@@ -11,6 +11,7 @@
           "FilmDukkanı.DAL": "1.0.0",
           "FilmDükkanı.Entity": "1.0.0",
           "FılmDukkanı.BLL": "1.0.0",
+          "FılmDukkanı.IOC": "1.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.15"
         },
         "runtime": {
@@ -2536,6 +2537,17 @@
         "runtime": {
           "FılmDukkanı.BLL.dll": {}
         }
+      },
+      "FılmDukkanı.IOC/1.0.0": {
+        "dependencies": {
+          "FilmDukkanı.DAL": "1.0.0",
+          "FilmDükkanı.Entity": "1.0.0",
+          "FılmDukkanı.BLL": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.1"
+        },
+        "runtime": {
+          "FılmDukkanı.IOC.dll": {}
+        }
       }
     }
   },
@@ -4082,6 +4094,11 @@
       "sha512": ""
     },
     "FılmDukkanı.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FılmDukkanı.IOC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

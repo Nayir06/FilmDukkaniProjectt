@@ -7,6 +7,11 @@ using FilmDükkaný.Entity.Base;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.Design;
+using FýlmDukkaný.IOC.Container;
+
+
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 

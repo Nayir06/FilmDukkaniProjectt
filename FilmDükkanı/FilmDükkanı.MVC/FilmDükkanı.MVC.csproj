@@ -10,6 +10,7 @@
     <ProjectReference Include="..\FilmDukkanı.DAL\FilmDukkanı.DAL.csproj" />
     <ProjectReference Include="..\FilmDükkanı.Entity\FilmDükkanı.Entity.csproj" />
     <ProjectReference Include="..\FılmDukkanı.BLL\FılmDukkanı.BLL.csproj" />
+    <ProjectReference Include="..\FılmDukkanı.IOC\FılmDukkanı.IOC.csproj" />
   </ItemGroup>
 
   <ItemGroup>
