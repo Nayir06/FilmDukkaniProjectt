@@ -16,6 +16,11 @@ namespace FilmDukkanı.DAL.Context
 {
     public class FılmDukkanıContext:IdentityDbContext
     {
+
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+
+
         //kayıt işlemi
         public override int SaveChanges()
         {
@@ -44,9 +49,7 @@ namespace FilmDukkanı.DAL.Context
 
         //tablo olusturma 
 
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Movie> Movies { get; set; }
-
+       
         protected override void OnModelCreating(ModelBuilder builder)
         {
 

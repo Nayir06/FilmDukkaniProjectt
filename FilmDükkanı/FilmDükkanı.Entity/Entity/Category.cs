@@ -10,18 +10,18 @@ namespace FilmDükkanı.Entity.Entity
 {
     public class Category:BaseEntity
     {
-        [Required]
+        [Required]  //doldurulması zorunlu alanı temsil ediyor
         [MaxLength(255)]
 
         
         public string CategoryName { get; set; }
 
-        //mapping ilişkilendirme
+        
 
+        //ilişkilendirme
 
-
-
-        public List<Movie> movies { get; set; }
+        public int MovieId { get; set; }
+        public virtual Movie movies { get; set; }
 
     }
 }

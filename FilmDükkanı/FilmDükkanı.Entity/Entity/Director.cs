@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace FilmDükkanı.Entity.Entity
 {
-    internal class Director
+    public class Director
     {
+        public string DirecktorName { get; set; }
+        public string DirecktorLastName { get; set; }
+
+
+        public int MovieId { get; set; }
+        public  List <Movie>Movie { get; set; }
+
+
+
     }
 }
