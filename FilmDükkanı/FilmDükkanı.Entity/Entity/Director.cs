@@ -1,21 +1,22 @@
-﻿using System;
+﻿using FilmDükkanı.Entity.Base;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace FilmDükkanı.Entity.Entity
 {
-    public class Director
+    public class Director:BaseEntity
     {
-        public string DirecktorName { get; set; }
-        public string DirecktorLastName { get; set; }
+        [Required]
+        public string? DirectorName { get; set; }
+        public string? DirectorLastName { get;}
 
 
-        public int MovieId { get; set; }
-        public  List <Movie>Movie { get; set; }
+        //mapping 
 
-
-
+        
     }
 }

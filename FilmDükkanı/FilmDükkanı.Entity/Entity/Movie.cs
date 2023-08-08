@@ -12,25 +12,25 @@ namespace FilmDükkanı.Entity.Entity
     {
         [Required]
         [MaxLength(255)]
-        public  string FılmAdı { get; set; }
-        public string OrjınalFılmAdı { get; set; }
+        public  string? FılmAdı { get; set; }
+        public string? OrjınalFılmAdı { get; set; }
        
 
-        public string YapımYılı { get; set; }
+        public string? YapımYılı { get; set; }
         
 
         public Double FılmSuresı { get; set; }
         
 
-        public string ImagePath { get; set; }
+        public string? ImagePath { get; set; }
 
         //mapping ilişkilendirme
 
 
-        public int DirectorId { get; set; }
-
+       
+        
         public virtual List <Category> Category { get; set; }
-        public  virtual Director Director { get; set; }
+        
         
 
     }

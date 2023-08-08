@@ -14,14 +14,14 @@ namespace FilmDükkanı.Entity.Entity
         [MaxLength(255)]
 
         
-        public string CategoryName { get; set; }
+        public string? CategoryName { get; set; }
 
         
 
         //ilişkilendirme
 
-        public int MovieId { get; set; }
-        public virtual Movie movies { get; set; }
+       public int MoviesId { get; set; }
+        public virtual Movie Movies { get; set; }
 
     }
 }
