@@ -16,6 +16,10 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Muhasebe\Controllers\" />
+    <Folder Include="Areas\Muhasebe\Data\" />
+    <Folder Include="Areas\Muhasebe\Models\" />
+    <Folder Include="Areas\Muhasebe\Views\" />
   </ItemGroup>
 
   <ItemGroup>

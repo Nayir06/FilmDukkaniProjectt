@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FılmDukkanı.BLL.AbstractService
 {
-    internal interface IDirectorService
+    public interface IDirectorService
     {
     }
 }

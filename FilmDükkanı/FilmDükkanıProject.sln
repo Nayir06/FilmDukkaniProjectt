@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FılmDukkanı.BLL", "FılmD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FılmDukkanı.IOC", "FılmDukkanı.IOC\FılmDukkanı.IOC.csproj", "{7F3D0FC8-8D83-4AA8-A7A2-859DA1BC05C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmDukkanı.MVC", "FilmDukkanı.MVC\FilmDukkanı.MVC.csproj", "{2E48E1E9-BA3E-4BD8-8F11-AD360167A2B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmDukkanı.MVC", "FilmDukkanı.MVC\FilmDukkanı.MVC.csproj", "{2E48E1E9-BA3E-4BD8-8F11-AD360167A2B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
