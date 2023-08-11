@@ -18,6 +18,9 @@ namespace FılmDukkanı.IOC.Container
         {
             services.AddTransient(typeof(IRepository<>), typeof(BaseRepository<>));
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IMovieService, MovieService>();
+            services.AddScoped<IDirectorService, DirectorService>();
+
         
          
         }
