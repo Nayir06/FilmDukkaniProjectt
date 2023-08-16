@@ -3,10 +3,11 @@ using FýlmDukkaný.BLL.AbstractService;
 using FýlmDukkaný.BLL.Concrete;
 using FýlmDukkaný.BLL.Service;
 using FilmDukkaný.DAL.Context;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddControllersWithViews();
 
 //servira baðlanma

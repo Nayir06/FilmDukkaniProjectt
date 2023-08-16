@@ -20,6 +20,7 @@ namespace FılmDukkanı.IOC.Container
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IMovieService, MovieService>();
             services.AddScoped<IDirectorService, DirectorService>();
+            
 
         
          
