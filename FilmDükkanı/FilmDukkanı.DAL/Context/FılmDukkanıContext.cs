@@ -4,6 +4,7 @@ using FilmDükkanı.Entity.Entity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,9 +17,14 @@ namespace FilmDukkanı.DAL.Context
 {
     public class FılmDukkanıContext:IdentityDbContext
     {
-
+        public FılmDukkanıContext(DbContextOptions<FılmDukkanıContext>options):base(options)
+        {
+            
+        }
         public DbSet<Category> Category { get; set; }
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Actor> Actors { get; set; }
+        public DbSet<Director> Directors { get; set; }
 
 
         //kayıt işlemi

@@ -12,5 +12,6 @@ namespace FilmDükkanı.Entity.Entity
         public string Name { get; set; }
 
         public List<Movie>? Movies { get; set; }
+        public virtual List<Category>? Category { get; set; }
     }
 }

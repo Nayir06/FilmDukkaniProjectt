@@ -16,7 +16,7 @@ namespace FilmDükkanı.Entity.Entity
 
 
         //mapping 
+        public virtual List<Category>? Category { get; set; }
 
-        
     }
 }

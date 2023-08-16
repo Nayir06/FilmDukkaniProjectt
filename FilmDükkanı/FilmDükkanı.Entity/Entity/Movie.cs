@@ -29,7 +29,7 @@ namespace FilmDükkanı.Entity.Entity
 
        
         
-        public virtual List <Category> Category { get; set; }
+        public virtual List <Category>? Category { get; set; } 
         
         
 
