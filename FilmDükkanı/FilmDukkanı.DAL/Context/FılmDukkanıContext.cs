@@ -21,6 +21,8 @@ namespace FilmDukkanı.DAL.Context
         {
             
         }
+
+        //tables
         public DbSet<Category> Category { get; set; }
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Actor> Actors { get; set; }
@@ -84,7 +86,7 @@ namespace FilmDukkanı.DAL.Context
             base.OnConfiguring(optionsBuilder);
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("server=DESKTOP-TQ757R7\\hasan;database=ProjeFilmmi;uid=sa;pwd=123");
+                optionsBuilder.UseSqlServer("server=DESKTOP-TQ757R7\\hasan;database=TestFilm;uid=sa;pwd=123");
             }
         }
     }
