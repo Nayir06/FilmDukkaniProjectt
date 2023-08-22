@@ -9,14 +9,14 @@ namespace FılmDukkanı.BLL.AbstractService
 {
     public interface IActorService
     {
-        IEnumerable<Actor> GetAllCategories();
+        IEnumerable<Actor> GetAllActor();
 
 
-        string CreateActor(Actor Actor);
+        string CreateActor(Actor actor);
 
 
-        string DeleteActor(Actor Actor);
-        string UpdateActor(Actor Actor);
+        string DeleteActor(Actor actor);
+        string UpdateActor(Actor actor);
         Actor FindActor(int id);
 
     }

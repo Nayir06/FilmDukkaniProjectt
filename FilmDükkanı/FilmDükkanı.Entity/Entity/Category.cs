@@ -21,6 +21,6 @@ namespace FilmDükkanı.Entity.Entity
         //ilişkilendirme
 
        
-        public virtual List<Director>? Director { get; set; }
+        public List<  Movie>  movies { get; set; }
     }
 }

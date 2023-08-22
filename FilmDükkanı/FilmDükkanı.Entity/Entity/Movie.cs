@@ -20,6 +20,7 @@ namespace FilmDükkanı.Entity.Entity
         
 
         public Double FılmSuresı { get; set; }
+
         
 
         public string? ImagePath { get; set; }
@@ -29,7 +30,10 @@ namespace FilmDükkanı.Entity.Entity
 
        
         
-        public virtual List <Category>? Category { get; set; } 
+        public virtual List <Category>? Category { get; set; }
+        public List<Actor>? Actor { get; set; }
+        
+
         
         
 

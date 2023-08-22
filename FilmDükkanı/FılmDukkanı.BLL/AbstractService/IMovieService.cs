@@ -9,14 +9,14 @@ namespace FılmDukkanı.BLL.AbstractService
 {
     public interface IMovieService
     {
-        IEnumerable<Movie> GetAllCategories();
+        IEnumerable<Movie> GetAllMovies();
 
 
-        string CreateMovie(Movie Movie);
+        string CreateMovie(Movie movie);
 
 
-        string DeleteMovie(Movie Movie);
-        string UpdateMovie(Movie Movie);
+        string DeleteMovie(Movie movie);
+        string UpdateMovie(Movie movie);
         Movie FindMovie(int id);
 
     }

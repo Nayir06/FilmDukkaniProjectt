@@ -9,14 +9,14 @@ namespace FilmDukkanı.MVC.Areas.Admin.Controllers
     {
         private readonly ICategoryService _categoryService;
 
-        public CategoryController(ICategoryService categoryService)
+        public CategoryController(ICategoryService CategoryService)
         {
-            _categoryService = categoryService;
+            _categoryService = CategoryService;
         }
         public IActionResult Index()
         {
 
-            return View(_categoryService.GetAllCategories());//Tolist vermediğimiz için hata verdi.Genel tipi verdi.
+            return View(_categoryService.GetAllCategories());
         }
 
         public IActionResult Create()

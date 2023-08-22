@@ -1,4 +1,5 @@
 ﻿using FılmDukkanı.BLL.Abstract;
+using FılmDukkanı.BLL.AbstractService;
 using FilmDükkanı.Entity.Entity;
 using System;
 using System.Collections.Generic;
@@ -8,22 +9,23 @@ using System.Threading.Tasks;
 
 namespace FılmDukkanı.BLL.Service
 {
-    public class ActorService
+    public class ActorService : IActorService
     {
-        private readonly IRepository<Actor> _actorRepository;
+        private IRepository<Actor> _actorrepository;
 
-        public ActorService(IRepository<Actor> actorRepository)
+
+        public ActorService(IRepository<Actor> repository)
         {
-            _actorRepository = actorRepository;
+            _actorrepository = repository;
         }
+
 
         public string CreateActor(Actor actor)
         {
             try
             {
-                _actorRepository.Create(actor);
-
-                return "Veri Eklendi!";
+                _actorrepository.Create(actor);
+                return "veri olusturuldu";
             }
             catch (Exception ex)
             {
@@ -35,9 +37,9 @@ namespace FılmDukkanı.BLL.Service
         {
             try
             {
-
-
-                return _actorRepository.Delete(actor);
+                actor.Status = FilmDükkanı.Entity.Enum.Status.Deleted;
+                _actorrepository.Update(actor);
+                return "veri silindi";
             }
             catch (Exception ex)
             {
@@ -47,25 +49,25 @@ namespace FılmDukkanı.BLL.Service
 
         public Actor FindActor(int id)
         {
-            return _actorRepository.GetById(id);
+            return _actorrepository.GetById(id);
         }
 
-        public IEnumerable<Actor> GetAllActors()
+        public IEnumerable<Actor> GetAllActor()
         {
-            return _actorRepository.GetAll().ToList();
+            return _actorrepository.GetAll().ToList();
         }
 
         public string UpdateActor(Actor actor)
         {
             try
             {
-
-
-                return _actorRepository.Update(actor);
+                actor.Status = FilmDükkanı.Entity.Enum.Status.Updated;
+                return _actorrepository.Update(actor);
             }
             catch (Exception ex)
             {
                 return ex.Message;
+
             }
         }
     }

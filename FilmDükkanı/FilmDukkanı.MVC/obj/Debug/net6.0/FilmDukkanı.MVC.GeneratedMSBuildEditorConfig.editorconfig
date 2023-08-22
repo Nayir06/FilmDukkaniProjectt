@@ -16,44 +16,88 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Actor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWN0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Actor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Director/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlyZWN0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Director/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlyZWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Director/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlyZWN0b3JcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Home/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Movie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW92aWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW92aWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/Movie/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW92aWVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Hesap/login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVzYXBcbG9naW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Hesap/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVzYXBcUmVnaXN0ZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Home/Index1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDEuY3NodG1s
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Home/Paket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWtldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/KrediKartı/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3JlZGlLYXJ0xLFcSW5kZXguY3NodG1s
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Shared/Error.cshtml]
@@ -62,6 +106,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Shared/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hasan/Desktop/github/FilmDukkaniProjectt/FilmDükkanı/FilmDukkanı.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]

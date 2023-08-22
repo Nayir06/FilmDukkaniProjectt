@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmDükkanı.Entity", "Fil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FılmDukkanı.BLL", "FılmDukkanı.BLL\FılmDukkanı.BLL.csproj", "{BB141DA3-A292-4F53-8841-E8EFB3A66673}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FılmDukkanı.IOC", "FılmDukkanı.IOC\FılmDukkanı.IOC.csproj", "{7F3D0FC8-8D83-4AA8-A7A2-859DA1BC05C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmDükkanı.IOC", "FılmDukkanı.IOC\FilmDükkanı.IOC.csproj", "{7F3D0FC8-8D83-4AA8-A7A2-859DA1BC05C7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmDukkanı.MVC", "FilmDukkanı.MVC\FilmDukkanı.MVC.csproj", "{2E48E1E9-BA3E-4BD8-8F11-AD360167A2B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmDukkanı.COMMON", "FilmDukkanı.COMMON\FilmDukkanı.COMMON.csproj", "{E532B3DF-EB83-4D42-9B26-E8E0392CD4F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2E48E1E9-BA3E-4BD8-8F11-AD360167A2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E48E1E9-BA3E-4BD8-8F11-AD360167A2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E48E1E9-BA3E-4BD8-8F11-AD360167A2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E532B3DF-EB83-4D42-9B26-E8E0392CD4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E532B3DF-EB83-4D42-9B26-E8E0392CD4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E532B3DF-EB83-4D42-9B26-E8E0392CD4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E532B3DF-EB83-4D42-9B26-E8E0392CD4F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

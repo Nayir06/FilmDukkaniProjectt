@@ -1,0 +1,39 @@
+﻿@model Movie
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container" style="margin-top:50px;height:500px;width:500px;">
+    <div class="mt-2">
+        <form class="border border- p-2 border-opacity-25" method="post" enctype="multipart/form-data">
+            <header>
+                <h2>Movie Güncelleme</h2>
+            </header>
+            <body>
+                <div>
+                    @using (Html.BeginForm("Update", "Movie", FormMethod.Post))
+                    {
+                        <label class="form-label">Movie Adı</label>
+                        <input type="text" style="background-color:#EDF1D6" class="form-control" placeholder="Movie Adı" asp-for="FılmAdı">
+                        <br />
+                        <input type="text" style="background-color:#EDF1D6" class="form-control" placeholder="Orjinal film Adı" asp-for="OrjınalFılmAdı">
+                        <br />
+                        <input type="text" style="background-color:#EDF1D6" class="form-control" placeholder="Yapım yılı" asp-for="YapımYılı">
+                        <br />
+                        <input type="text" style="background-color:#EDF1D6" class="form-control" placeholder="Film Süresi" asp-for="FılmSuresı">
+                        <br />
+
+
+
+
+                        <input type="submit" value="Güncelle" />
+                    }
+                </div>
+
+            </body>
+
+        </form>
+    </div>
+</div>
+

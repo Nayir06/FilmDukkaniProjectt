@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "FilmDükkanı.IOC": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:64226;http://localhost:64228"
+    }
+  }
+}

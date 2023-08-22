@@ -4,6 +4,65 @@
     "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FilmDukkanı.MVC\\FilmDukkanı.MVC.csproj": {}
   },
   "projects": {
+    "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FilmDukkanı.COMMON\\FilmDukkanı.COMMON.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FilmDukkanı.COMMON\\FilmDukkanı.COMMON.csproj",
+        "projectName": "FilmDukkanı.COMMON",
+        "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FilmDukkanı.COMMON\\FilmDukkanı.COMMON.csproj",
+        "packagesPath": "C:\\Users\\hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FilmDukkanı.COMMON\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FilmDukkanı.DAL\\FilmDukkanı.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -50,17 +109,17 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.19, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.19, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.19, )"
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -111,6 +170,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FilmDukkanı.COMMON\\FilmDukkanı.COMMON.csproj": {
+                "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FilmDukkanı.COMMON\\FilmDukkanı.COMMON.csproj"
+              },
               "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FilmDukkanı.DAL\\FilmDukkanı.DAL.csproj": {
                 "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FilmDukkanı.DAL\\FilmDukkanı.DAL.csproj"
               },
@@ -120,8 +182,8 @@
               "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.BLL\\FılmDukkanı.BLL.csproj": {
                 "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.BLL\\FılmDukkanı.BLL.csproj"
               },
-              "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FılmDukkanı.IOC.csproj": {
-                "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FılmDukkanı.IOC.csproj"
+              "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FilmDükkanı.IOC.csproj": {
+                "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FilmDükkanı.IOC.csproj"
               }
             }
           }
@@ -136,6 +198,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -289,12 +361,12 @@
         }
       }
     },
-    "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FılmDukkanı.IOC.csproj": {
+    "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FilmDükkanı.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FılmDukkanı.IOC.csproj",
-        "projectName": "FılmDukkanı.IOC",
-        "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FılmDukkanı.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FilmDükkanı.IOC.csproj",
+        "projectName": "FilmDükkanı.IOC",
+        "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\FilmDükkanı.IOC.csproj",
         "packagesPath": "C:\\Users\\hasan\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProjectt\\FilmDükkanı\\FılmDukkanı.IOC\\obj\\",
         "projectStyle": "PackageReference",

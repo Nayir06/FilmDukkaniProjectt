@@ -5,34 +5,70 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FılmDukkanı.BLL.Abstract;
 
 namespace FılmDukkanı.BLL.Service
 {
     public class MovieService : IMovieService
     {
+        private IRepository<Movie> _movierepository;
+
+
+        public MovieService(IRepository<Movie> repository)
+        {
+            _movierepository = repository;
+        }
+
+
         public string CreateMovie(Movie Movie)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _movierepository.Create(Movie);
+                return "veri olusturuldu";
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
         }
 
         public string DeleteMovie(Movie Movie)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Movie.Status = FilmDükkanı.Entity.Enum.Status.Deleted;
+                _movierepository.Update(Movie);
+                return "veri silindi";
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
         }
 
         public Movie FindMovie(int id)
         {
-            throw new NotImplementedException();
+            return _movierepository.GetById(id);
         }
 
-        public IEnumerable<Movie> GetAllCategories()
+        public IEnumerable<Movie> GetAllMovies()
         {
-            throw new NotImplementedException();
+            return _movierepository.GetAll().ToList();
         }
 
         public string UpdateMovie(Movie Movie)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Movie.Status = FilmDükkanı.Entity.Enum.Status.Updated;
+                return _movierepository.Update(Movie);
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+
+            }
         }
     }
 }

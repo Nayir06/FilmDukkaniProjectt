@@ -1,0 +1,48 @@
+﻿@model List<Actor>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <div class="d-flex justify-content-between">
+                <h5>Kategori Listesi</h5>
+                <a href="/Admin/Actor/Create/" class="btn btn-primary btn-sm">Kategori Oluştur</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Actor Id</th>
+                        <th>Actor Adı</th>
+
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.LastName</td>
+
+
+                            <td>
+                                <a href="/Admin/Actor/Update/@item.Id" class="btn btn-warning btn-sm">Güncelle</a>
+                                <a href="/Admin/Actor/Delete/@item.Id" class="btn btn-danger btn-sm">Sil</a>
+
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

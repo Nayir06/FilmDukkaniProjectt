@@ -9,14 +9,14 @@ namespace FılmDukkanı.BLL.AbstractService
 {
     public interface IDirectorService
     {
-        IEnumerable<Director> GetAllCategories();
+        IEnumerable<Director> GetAllDirector();
 
 
-        string CreateDirector(Director Director);
+        string CreateDirector(Director director);
 
 
-        string DeleteDirector(Director Director);
-        string UpdateDirector(Director Director);
+        string DeleteDirector(Director director);
+        string UpdateDirector(Director director);
         Director FindDirector(int id);
 
     }

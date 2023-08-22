@@ -13,11 +13,11 @@ namespace FılmDukkanı.BLL.Concrete
 {
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
-        private readonly FılmDukkanıContext _context;
+        private readonly FilmDukkaniContext _context;
         private readonly DbSet<T> _entities; // buraya gelen ürünü set ediyor
 
         //cast yapıldı
-        public BaseRepository(FılmDukkanıContext context)
+        public BaseRepository(FilmDukkaniContext context)
         {
             _context = context;
             _entities = _context.Set<T>();

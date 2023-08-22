@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\FilmDükkanı.MVC.props" />
-</Project>

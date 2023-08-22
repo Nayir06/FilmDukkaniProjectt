@@ -257,5 +257,8 @@ C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC
 C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC\bin\Debug\net6.0\FılmDukkanı.IOC.dll
-C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC\bin\Debug\net6.0\FılmDukkanı.IOC.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC\bin\Debug\net6.0\FilmDükkanı.IOC.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC\bin\Debug\net6.0\FilmDükkanı.IOC.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC\bin\Debug\net6.0\FilmDukkanı.COMMON.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.MVC\bin\Debug\net6.0\FilmDukkanı.COMMON.pdb

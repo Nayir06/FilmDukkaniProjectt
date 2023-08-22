@@ -12,12 +12,12 @@ namespace FılmDukkanı.BLL.Service
     public class CategoryService : ICategoryService
     {
 
-        private IRepository<Category> _Categoryrepository;
+        private IRepository<Category> _categoryrepository;
 
 
         public CategoryService(IRepository <Category> repository)
         {
-            _Categoryrepository = repository;
+            _categoryrepository = repository;
         }
 
 
@@ -25,7 +25,7 @@ namespace FılmDukkanı.BLL.Service
         {
             try
             {
-                _Categoryrepository.Create(category);
+                _categoryrepository.Create(category);
                     return "veri olusturuldu";
             }
             catch (Exception ex)
@@ -39,6 +39,7 @@ namespace FılmDukkanı.BLL.Service
             try
             {
                 category.Status = FilmDükkanı.Entity.Enum.Status.Deleted;
+                _categoryrepository.Update(category);
                 return "veri silindi";
             }
             catch(Exception ex)
@@ -49,12 +50,12 @@ namespace FılmDukkanı.BLL.Service
 
         public Category FindCategory(int id)
         {
-            throw new NotImplementedException();
+           return _categoryrepository.GetById(id);
         }
 
         public IEnumerable<Category> GetAllCategories()
         {
-            return _Categoryrepository.GetAll().ToList();
+            return _categoryrepository.GetAll().ToList();
         }
 
         public string UpdateCategory(Category category)
@@ -62,7 +63,7 @@ namespace FılmDukkanı.BLL.Service
             try
             {
                 category.Status = FilmDükkanı.Entity.Enum.Status.Updated;
-                return _Categoryrepository.Update(category);
+                return _categoryrepository.Update(category);
             }
             catch (Exception ex)
             {

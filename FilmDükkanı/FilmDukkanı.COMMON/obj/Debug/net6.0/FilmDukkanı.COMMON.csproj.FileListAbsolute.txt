@@ -1,0 +1,12 @@
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\bin\Debug\net6.0\FilmDukkanı.COMMON.deps.json
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\bin\Debug\net6.0\FilmDukkanı.COMMON.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\bin\Debug\net6.0\FilmDukkanı.COMMON.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\obj\Debug\net6.0\FilmDukkanı.COMMON.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\obj\Debug\net6.0\FilmDukkanı.COMMON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\obj\Debug\net6.0\FilmDukkanı.COMMON.AssemblyInfoInputs.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\obj\Debug\net6.0\FilmDukkanı.COMMON.AssemblyInfo.cs
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\obj\Debug\net6.0\FilmDukkanı.COMMON.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\obj\Debug\net6.0\FilmDukkanı.COMMON.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\obj\Debug\net6.0\refint\FilmDukkanı.COMMON.dll
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\obj\Debug\net6.0\FilmDukkanı.COMMON.pdb
+C:\Users\hasan\Desktop\github\FilmDukkaniProjectt\FilmDükkanı\FilmDukkanı.COMMON\obj\Debug\net6.0\ref\FilmDukkanı.COMMON.dll

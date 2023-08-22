@@ -1,0 +1,36 @@
+﻿@model Director
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+}
+<div class="container" style="margin-top:50px;height:500px;width:500px;">
+    <div class="mt-2">
+        <form class="border border- p-2 border-opacity-25" method="post" enctype="multipart/form-data">
+            <header>
+                <h2>Director Olusturma</h2>
+            </header>
+            <body>
+                <div>
+                    @using (Html.BeginForm("Create", "Category", FormMethod.Post))
+                    {
+                        <label class="form-label">Director Adı</label>
+                        <input type="text" style="background-color:#EDF1D6" class="form-control" placeholder="Director Adı" asp-for="DirectorName">
+                        <br />
+                        <label class="form-label">Director Soyadı</label>
+                        <input type="text" style="background-color:#EDF1D6" class="form-control" placeholder="Director Soyadı" asp-for="DirectorLastName">
+                        <br />
+
+
+
+                        <input type="submit" value="Oluştur" />
+                    }
+                </div>
+
+            </body>
+
+        </form>
+    </div>
+</div>
+
