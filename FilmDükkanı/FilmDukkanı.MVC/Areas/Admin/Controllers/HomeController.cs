@@ -11,13 +11,15 @@ namespace FilmDukkanı.MVC.Areas.Admin.Controllers
         private readonly IDirectorService _directorService;
         private readonly ICategoryService _categoryService;
         private readonly IActorService _actorService;
+        private readonly IPaketService _paketService;
 
-        public HomeController(IMovieService movieService, IDirectorService directorService, ICategoryService categoryService, IActorService actorService)
+        public HomeController(IMovieService movieService, IDirectorService directorService, ICategoryService categoryService, IActorService actorService/*IPaketService paketService*/)
         {
             _movieService = movieService;
             _directorService = directorService;
             _categoryService = categoryService;
             _actorService = actorService;
+            //_paketService = paketService;
         }
         public IActionResult Index()
         {

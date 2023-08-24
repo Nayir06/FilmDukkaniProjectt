@@ -119,9 +119,9 @@ namespace FilmDukkanı.DAL.Migrations
                         {
                             Id = 1,
                             CategoryName = "elma",
-                            CreateDate = new DateTime(2023, 8, 22, 19, 8, 38, 416, DateTimeKind.Local).AddTicks(625),
+                            CreateDate = new DateTime(2023, 8, 23, 20, 7, 27, 673, DateTimeKind.Local).AddTicks(7016),
                             IsActive = true,
-                            MasterId = new Guid("4f14b142-805f-4d8a-bc6a-15411dd5b4ed"),
+                            MasterId = new Guid("1f534375-df2a-48bc-9ce9-4d56f423676f"),
                             Status = 1
                         });
                 });
@@ -205,11 +205,11 @@ namespace FilmDukkanı.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2023, 8, 22, 19, 8, 38, 418, DateTimeKind.Local).AddTicks(8313),
+                            CreateDate = new DateTime(2023, 8, 23, 20, 7, 27, 677, DateTimeKind.Local).AddTicks(1292),
                             FılmAdı = "merhaba",
                             FılmSuresı = 0.0,
                             IsActive = true,
-                            MasterId = new Guid("3a5d45b0-6e26-4e5b-b6a9-52be5e860ea7"),
+                            MasterId = new Guid("b6c855c7-d466-48a0-817b-91e56fcd8aae"),
                             Status = 1
                         });
                 });

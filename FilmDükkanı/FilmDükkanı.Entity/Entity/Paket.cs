@@ -9,9 +9,15 @@ namespace FilmDükkanı.Entity.Entity
 {
     public class Paket:BaseEntity
     {
-        public string paket1 { get; set; }
-        public string paket2 { get; set; }
-        public string paket3 { get; set;}
-        public string paket4 { get; set;}
+        public string UyelıkModelı { get ; set; }
+        public string Degisim { get; set; }
+        public string AylıkYaklasıkFılmSayısı { get ; set; }
+        public Decimal AylıkUcret { get ; set; }
+
+
+        //tables
+
+
+        public List<AppUser> Users { get; set; }
     }
 }

@@ -1,35 +1,91 @@
-﻿<div class="container">
+﻿@model PaketVM
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
     <div class="card">
         <div class="card-header">
             <div class="d-flex justify-content-between">
+                <h5>Paket Tercihi</h5>
+                
             </div>
         </div>
         <div class="card-body">
             <table class="table table-hover">
                 <thead>
                     <tr>
+                        <th>Uyelik Modeli</th>
+                        <th>Değişim</th>
+                        <th>Aylık Yaklasık FılM Sayısı</th>
+                        <th>Fiyatı</th>
+                        <th>Seçenek</th>
 
-
-                        <th>  PAketler</th>
-                        <th>  ıd</th>
-                        <th>  ıd</th>
-                        <th>  ıd</th>
+                        <th></th>
                     </tr>
                 </thead>
-                @*<tbody>
-                @foreach (var item in Model.Movies)
-                {
+                <tbody>
+                   
+
+                        <tr>
+                            <td>EkonomiK Paket</td>
+                        <td>Bir Değişimde 2 Film</td>
+                        <td>16 Film</td>
+                        <td>19.90 Tl</td>
 
 
+                            <td>
+                                <a href="/Home/Paket" class="btn btn-warning btn-sm"> Seç </a>
+                                <
 
 
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>3 Lu Paket</td>
+                        <td>Bir Değişimde 3 Film</td>
+                        <td>24 Film</td>
+                        <td>29.90 Tl</td>
 
 
+                        <td>
+                            <a href="/Home/Paket" class="btn btn-warning btn-sm"> Seç </a>
+                            <
 
-                </tr>
-                }
-                </tbody>*@
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4 Lu Paket</td>
+                        <td>Bir Değişimde 4 Film</td>
+                        <td>32 Film</td>
+                        <td>39.90 Tl</td>
+
+
+                        <td>
+                            <a href="/Home/Paket" class="btn btn-warning btn-sm"> Seç </a>
+                            <
+
+
+                        </td>
+                    <tr>
+                        <td>Gold Paket</td>
+                        <td>Bir Değişimde 5 Film</td>
+                        <td>40 Film</td>
+                        <td>49.90 Tl</td>
+
+
+                        <td>
+                            <a href="/Home/Paket" class="btn btn-warning btn-sm"> Seç </a>
+                            <
+
+
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </div>
+        <button type="submit" class="btn btn-primary">Paket Oluştur</button>
     </div>
 </div>

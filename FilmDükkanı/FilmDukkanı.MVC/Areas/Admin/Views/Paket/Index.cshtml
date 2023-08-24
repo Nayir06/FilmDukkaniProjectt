@@ -1,0 +1,52 @@
+﻿@model List<Paket>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <div class="d-flex justify-content-between">
+                <h5>Paket Listesi</h5>
+                <a href="/Admin/Paket/Create/" class="btn btn-primary btn-sm">Paket Oluştur</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Paket Id</th>
+                        <th>Uyelık Modelı</th>
+                        <th>Değişim</th>
+                        <th> Aylık Yaklaşık Film Sayısı </th>
+                        <th> Aylık Ucret </th>
+
+
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.UyelıkModelı</td>
+                            <td>@item.Degisim</td>
+                            <td>@item.AylıkYaklasıkFılmSayısı</td>
+                            <td>@item.AylıkUcret</td>
+
+                            <td>
+                                <a href="/Admin/Paket/Update/@item.Id" class="btn btn-warning btn-sm">Güncelle</a>
+                                <a href="/Admin/Paket/Delete/@item.Id" class="btn btn-danger btn-sm">Sil</a>
+
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

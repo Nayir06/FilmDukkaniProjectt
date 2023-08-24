@@ -1,0 +1,25 @@
+﻿@model Views_Home_Paket
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="custom-select">
+    <button class="toggle-button">Select a car</button>
+    <ul class="options">
+        <li data-value="" class="option">
+            <span class="option-text">Select a car</span>
+            <button class="select-button">Select</button>
+        </li>
+        <li data-value="volvo" class="option">
+            <span class="option-text">ekonomik Paket</span>
+            <button class="select-button">Select</button>
+        </li>
+        <li data-value="saab" class="option">
+            <span class="option-text">Saab</span>
+            <button class="select-button">Select</button>
+        </li>
+        <!-- Diğer seçenekler -->
+    </ul>
+</div>
+

@@ -45,5 +45,6 @@ namespace FilmDükkanı.Entity.Entity
 
 
         public List<Movie> Movies { get; set; }
+        public Paket paket { get; set; }
     }
 }

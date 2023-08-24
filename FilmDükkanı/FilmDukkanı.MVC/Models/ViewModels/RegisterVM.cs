@@ -36,6 +36,11 @@ namespace FilmDukkanı.MVC.Models.ViewModels
      [Required(ErrorMessage = "Telefon Numarası Boş Geçielemz")]
      [Display(Name = "Telefon Numarası")]
      public string PhoneNumber { get; set;}
+
+
+
+        //paket işlemleri
+
      
     }
 }

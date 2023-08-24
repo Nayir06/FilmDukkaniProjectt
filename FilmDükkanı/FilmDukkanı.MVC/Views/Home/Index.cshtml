@@ -1,42 +1,36 @@
 ﻿@model MovieAndCategoryVM
-@{
-    ViewData["Title"] = "Home Page";
-}
 
-<div class="container">
-    <div class="card">
-        <div class="card-header">
-            <div class="d-flex justify-content-between">
-                
-                
-            </div>
-        </div>
-        <div class="card-body">
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        
-
-                        <th>  ıd</th>
-                        <th>  ıd</th>
-                        <th>  ıd</th>
-                        <th>  ıd</th>
-                    </tr>
-                </thead>
-                @*<tbody>
-                    @foreach (var item in Model.Movies)
-                    {
-
-                        
-
-
-
-
-
-                        </tr>
-                    }
-                </tbody>*@
-            </table>
-        </div>
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        <span>@TempData["Success"]</span>
     </div>
-</div>
+}
+<table class="movie-table">
+    <tbody>
+        @foreach (var movie in Model.Movies)
+        {
+            <tr>
+                <td colspan="4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">@movie.OrjınalFılmAdı</h5>
+                            <p class="card-text">Film Adı: @movie.FılmAdı</p>
+                            <p class="card-text">Release Year: @movie.YapımYılı</p>
+                            <a href="/details/@movie.Id" class="btn btn-primary">Detayları Gör</a>
+                            <button class="btn btn-success" onclick="addToCart('@movie.Id')">Listene Ekle</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function addToCart(movieId) {
+    
+
+        alert('Film Listene eklendi! Film ID: ' + movieId);
+    }
+</script>

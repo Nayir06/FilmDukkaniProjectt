@@ -55,7 +55,37 @@
                 <span asp-validation-for="PhoneNumber"> </span>
                 <input class="form-control" asp-for="PhoneNumber" />
             </div>
+            <div><span>Paket Özellikleri.</span></div>
+            <div>
+                <span>
+                    Ekonomik Paket  Bir değişimde 2 Film 16 Film   19,90 YTL
+</span>
+            </div>
+            <div>
+                <span>
+                    3'lü Paket Bir değişimde 3 Film 24 Film 29,9 YTL
 
+                </span>
+            </div>
+            <div>
+                <span>
+                    4'lüPaket Bir değişimde 4 Film 32 Film  39,9 YTL
+                </span>
+            </div>
+            <div>
+                <span>
+                    4'lüPaket Bir değişimde 4 Film 32 Film 39,9 YTL 
+                </span>
+            </div>
+            <div>
+                <select class="form-select" aria-label="Default select example" name="paket">
+                    <option selected>Paketler</option>
+                    <option value="true">Gold Paket</option>
+                    <option value="false">Economik Paket</option>
+                    <option value="false">3'lu Paket</option>
+                    <option value="false">4'Lu Paket</option>
+                </select>
+            </div>
             <button type="submit" class="btn btn-primary">Kullanıcı Oluştur</button>
 
         </form>

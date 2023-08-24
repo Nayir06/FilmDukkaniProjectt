@@ -2,6 +2,7 @@
 using FilmDükkanı.Entity.Entity;
 using FilmDukkanı.MVC.Models;
 using FilmDukkanı.MVC.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -10,6 +11,7 @@ using System.Web;
 
 namespace FilmDukkanı.MVC.Controllers
 {
+    
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -18,10 +20,11 @@ namespace FilmDukkanı.MVC.Controllers
         private readonly IDirectorService _directorService;
         private readonly ICategoryService _categoryService;
         private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly IPaketService _paketService;
         private readonly UserManager<IdentityUser> _userManager;
         
 
-        public HomeController(ILogger<HomeController> logger, IMovieService movieService,IActorService actorService,IDirectorService directorService,ICategoryService categoryService, UserManager<IdentityUser>userManager,SignInManager<IdentityUser>signInManager) //UserManager<AppUser>userManager)
+        public HomeController(ILogger<HomeController> logger, IMovieService movieService,IActorService actorService,IDirectorService directorService,ICategoryService categoryService, UserManager<IdentityUser> userManager,SignInManager<IdentityUser>signInManager/*IPaketService paketService*/) //UserManager<AppUser>userManager)
         {
             _logger = logger;
             _movieService = movieService;
@@ -29,6 +32,7 @@ namespace FilmDukkanı.MVC.Controllers
             _directorService = directorService;
             _categoryService = categoryService;
             _signInManager = signInManager;
+            //_paketService = paketService;
             _userManager = userManager;
             
         }
@@ -40,7 +44,7 @@ namespace FilmDukkanı.MVC.Controllers
             movieAndCategoryVM.Movies=_movieService.GetAllMovies().ToList();
             //movieAndCategoryVM.Directors=_directorService.GetAllDirector().ToList();
             //movieAndCategoryVM.Actors=_actorService.GetAllActor().ToList();
-            return View();
+            return View(movieAndCategoryVM);
         }
 
         public IActionResult Register() 
@@ -64,7 +68,7 @@ namespace FilmDukkanı.MVC.Controllers
                 var result = await _userManager.CreateAsync(user, registerVm.ConfirmPassword);
                 if (result.Succeeded)
               {
-                  return RedirectToAction("Paket", "Home");
+                  return RedirectToAction("Index", "Home");
       
               }
               else
@@ -75,7 +79,14 @@ namespace FilmDukkanı.MVC.Controllers
           else { return View(registerVm); }
       }
        
-
+        public IActionResult addToCar(int movieId)
+        {
+            //List<int> cartItems = Session["CartItems"] as List<int> ?? new List<int>();
+            //cartItems.Add(movieId);
+            //Session["CartItems"] = cartItems;
+            
+            return RedirectToAction("Index", "Home");
+        }
         public IActionResult Login()
         {
             ViewBag.Categories = _categoryService.GetAllCategories().ToList();
@@ -95,7 +106,7 @@ namespace FilmDukkanı.MVC.Controllers
 
                     if (result.Succeeded)
                     {
-                        return RedirectToAction("Index");
+                        return RedirectToAction("Index","Home");
                     }
                     else
                     {
@@ -119,7 +130,7 @@ namespace FilmDukkanı.MVC.Controllers
 
         public IActionResult Paket()
         {
-
+            
             return View(); }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
